@@ -27,6 +27,7 @@ xs = [
 # Targets
 ys = [1.0, -1.0, -1.0, 1.0]
 
+# Gradient descent
 for k in range(100):
     # Forward pass
     ypred = [n(x) for x in xs]
