@@ -72,9 +72,7 @@ python -m pytest
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
 
-
 ---
-
 
 © Carlo Bortolan
 
