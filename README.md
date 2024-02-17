@@ -2,7 +2,8 @@
 
 A simple Autograd engine that implements backpropagation (reverse-mode autodiff) over a dynamically built DAG and a small neural networks library with a PyTorch-like API. The DAG only operates over scalar values. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.
 
-> __NOTE__: __THIS PROJECT IS STILL UNDER DEVELOPMENT.__
+> [!IMPORTANT]
+> As of February 18, 2024, this project has been put on hold and will probably not be worked on or finished in the near future.
 
 > __DISCLAIMER__: _This is inspired by [pytorch's autograd engine](https://pytorch.org/blog/overview-of-pytorch-autograd-engine) as well as [micrograd](https://github.com/karpathy/micrograd) and used for experimenting with Phyton and the concept of autograd engines and neural nets._
 
@@ -14,7 +15,8 @@ pip install dagnet
 -->
 ## Example usage
 
-> __NOTE__: _Check out [demo.ipynb](demo.ipynb) for more detailed examples_
+> [!NOTE]
+> Check out [demo.ipynb](demo.ipynb) for more detailed examples.
 
 Below is a slightly contrived example showing a number of possible supported operations:
 
